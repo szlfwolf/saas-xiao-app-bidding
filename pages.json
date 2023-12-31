@@ -1,0 +1,232 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "标书服务专家"
+			}
+		},
+		{
+			"path" : "pages/flow/flow",
+			"style" : 
+			{
+				"navigationBarTitleText" : "服务流程",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/consult/consult",
+			"style" : 
+			{
+				"navigationBarTitleText" : "免费咨询",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/bidproxy/bidproxy",
+			"style" : 
+			{
+				"navigationBarTitleText" : "标书代理 - 基础信息填写",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/bidproxy/bidproxy_confirm/bidproxy_confirm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "标书代理 - 提交",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/help/help",
+			"style" : 
+			{
+				"navigationBarTitleText" : "使用帮助",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/case/case",
+			"style" : 
+			{
+				"navigationBarTitleText" : "经典案例",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/rule/rule",
+			"style" : 
+			{
+				"navigationBarTitleText" : "法规前瞻",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/case/case_detail/case_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "经典案例",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/rule/rule_detail/rule_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "法规前瞻",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/bidfee/bidfee",
+			"style" : 
+			{
+				"navigationBarTitleText" : "代做预算",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/winbidding/winbidding",
+			"style" : 
+			{
+				"navigationBarTitleText" : "中标信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/bidding_template/bidding_template",
+			"style" : 
+			{
+				"navigationBarTitleText" : "标书模板",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/bidding_template/bidding_confirm/bidding_confirm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "标书审核",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/mytask/mytask",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心 - 我的发布",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/mytask_detail/mytask_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心 - 任务明细",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/winbidding/winbidding_detail/winbidding_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "中标公告",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/history/history",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心 - 浏览历史",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/collect/collect",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心 - 我的收藏",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/download/download",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心 - 我的下载",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/message/message",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心 - 消息通知",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/bidding_template/bidding_template_detail/bidding_template_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/feedback/feedback",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心 - 意见反馈",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#282828",
+		"selectedColor": "#1890ff",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/3a9b102abfa3c042033903f903181d34.png",
+				"selectedIconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/c1e70071e19017aaba324e5e7cede867.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/consult/consult",
+				"iconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/388059e1ef685b5ecd50b3aea88e4f5b.png",
+				"selectedIconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/8be6f652e25a8061911f7ce2d0f72b9c.png",
+				"text": "免费咨询"
+			},
+			{
+				"pagePath": "pages/bidproxy/bidproxy",
+				"iconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/38c8751606990a99070ea16817aca429.png",
+				"selectedIconPath": "https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=fb0079514adc8a7e9604bd3db18d9aa0.png",
+				"text": "标书代理"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/54eae24f506ca316a4c216506f48a42c.png",
+				"selectedIconPath": "https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=5254d56e4c7607bffd46f33734a51a8b.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
