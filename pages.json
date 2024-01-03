@@ -204,26 +204,26 @@
 		"backgroundColor": "#ffffff",
 		"list": [{
 				"pagePath": "pages/index/index",
-				"iconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/3a9b102abfa3c042033903f903181d34.png",
-				"selectedIconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/c1e70071e19017aaba324e5e7cede867.png",
+				"iconPath": "/static/tabbar/home.png",
+				"selectedIconPath": "/static/tabbar/home-hl.png",
 				"text": "首页"
 			},
 			{
 				"pagePath": "pages/consult/consult",
-				"iconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/388059e1ef685b5ecd50b3aea88e4f5b.png",
-				"selectedIconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/8be6f652e25a8061911f7ce2d0f72b9c.png",
+				"iconPath": "/static/tabbar/consult.png",
+				"selectedIconPath": "/static/tabbar/consult-hl.png",
 				"text": "免费咨询"
 			},
 			{
 				"pagePath": "pages/bidproxy/bidproxy",
-				"iconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/38c8751606990a99070ea16817aca429.png",
-				"selectedIconPath": "https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=fb0079514adc8a7e9604bd3db18d9aa0.png",
+				"iconPath": "/static/tabbar/proxy.png",
+				"selectedIconPath": "/static/tabbar/proxy-hl.png",
 				"text": "标书代理"
 			},
 			{
 				"pagePath": "pages/user/user",
-				"iconPath": "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/54eae24f506ca316a4c216506f48a42c.png",
-				"selectedIconPath": "https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=5254d56e4c7607bffd46f33734a51a8b.png",
+				"iconPath": "/static/tabbar/user.png",
+				"selectedIconPath": "/static/tabbar/user-hl.png",
 				"text": "个人中心"
 			}
 		]

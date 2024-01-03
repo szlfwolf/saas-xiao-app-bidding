@@ -5,19 +5,19 @@
       <view class="flex-row items-center section_2">
         <image
           class="shrink-0 image_6"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=2c01d2ae98fe9ac12c5e82277a1dcdc9.png"
+          src="/static/index/plus.png"
         />
         <view class="ml-16 flex-row justify-evenly items-center flex-1 section_3">
           <image
             class="image_7"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=1c5c67ff8d9c06569244c0a8ba089bbf.png"
+            src="/static/index/search.png"
           />
           <text class="font_2 text_3 text_5">搜索你想知道的内容</text>
         </view>
 		<navigator url="/pages/help/help">
         <image
           class="ml-16 shrink-0 image_6"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=c36dd792821b41b791bf5436026c0ac3.png"
+          src="/static/index/help.png"
         />
 		</navigator>
       </view>
@@ -28,78 +28,78 @@
             <view class="flex-col justify-start items-center image-wrapper_2">
               <image
                 class="image_13"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=aa0407e8397587aabb44da03d3b2daa7.png"
+                src="/static/index/banner_1_1.png"
               />
             </view>
             <text class="font_3 pos_6">为中标保价护航</text>
             <view class="flex-col justify-start items-end group_5 pos_3">
-              <image
-                class="shrink-0 image_9"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=06f5a16514bda16f5341dfc49f392ec2.png"
-              />
-              <view class="flex-col group_6 pos_4">
-                <image
-                  class="shrink-0 self-end image_10"
-                  src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=33b2b373f36da9eff120b758e0b9a3b7.png"
-                />
-                <view class="shrink-0 self-stretch section_5"></view>
-              </view>
+			  <image
+				class="shrink-0 image_9"
+				src="/static/index/banner_1_2.png"
+			  />
+			  <view class="flex-col group_6 pos_4">
+				<image
+				  class="shrink-0 self-end image_10"
+				  src="/static/index/banner_1_3.png"
+				/>
+				<view class="shrink-0 self-stretch section_5"></view>
+			  </view>
             </view>
-            <image
-              class="image_14 pos_8"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=6bcb62428f2d5f6fad815ce882d1965d.png"
-            />
-            <image
-              class="image_8 pos_2"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=43db155e000e409e596f652c2eba2992.png"
-            />
-            <image
-              class="image_11 pos_5"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=2a46cccb021832f6c487b0d971b0c3f9.png"
-            />
-            <image
-              class="image_12 pos_7"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=0fb4ec208918b0ed72e337fd4ef0c6e7.png"
-            />
-            <image
-              class="image_15 pos_9"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a2a21c82b83843ddb93d09e0b4a16a9e.png"
-            />
+			<image
+			  class="image_14 pos_8"
+			  src="/static/index/banner_1_4.png"
+			/>
+			<image
+			  class="image_8 pos_2"
+			  src="/static/index/banner_1_5.png"
+			/>
+			<image
+			  class="image_11 pos_5"
+			  src="/static/index/banner_1_6.png"
+			/>
+			<image
+			  class="image_12 pos_7"
+			  src="/static/index/banner_1_7.png"
+			/>
+			<image
+			  class="image_15 pos_9"
+			  src="/static/index/banner_1_8.png"
+			/>
           </view>
         </view>
         <view class="flex-row equal-division">
           <view class="flex-col items-center group_7 equal-division-item" v-on:click="goBidProxy()">
-            <image
-              class="image_16"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=924ab2aaa3bf6ce7e503424d6037aa3b.png"
-            />
-            <text class="mt-10 font_2 text_7">代写标书</text>
+			  <image
+				class="image_16"
+				src="@/static/index/mid1.png"
+			  />
+			  <text class="mt-10 font_2 text_7">代写标书</text>
           </view>
           <view class="flex-col items-center group_7 equal-division-item" v-on:click="goBidfee()">
-            <image
-              class="image_16"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=2c307ccb776cca1b61f9bda8bab475f7.png"
-            />
+			<image
+			  class="image_16"
+			  src="@/static/index/mid2.png"
+			/>
             <text class="mt-10 font_2 text_7">代做预算</text>
           </view>
           <view class="flex-col items-center group_7 equal-division-item" v-on:click="goBidConfirm()">
             <image
               class="image_16"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b179ab350dd55c0b32c427d00d14abd4.png"
+              src="@/static/index/mid3.png"
             />
             <text class="mt-10 font_2 text_7">标书审核</text>
           </view>
           <view class="flex-col items-center group_7 equal-division-item" v-on:click="goBidTemplate()">
             <image
               class="image_16"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=8a7ce86804c107fb2650d79bad580c98.png"
+              src="@/static/index/mid4.png"
             />
             <text class="mt-10 font_2 text_7">标书模板</text>		
           </view>
           <view class="flex-col items-center group_7 equal-division-item" v-on:click="goWinBidding()">
             <image
               class="image_16"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4d864204177fdd9ced945e1db390dddf.png"
+              src="@/static/index/mid5.png"
             />
             <text class="mt-10 font_2 text_7">中标信息</text>
           </view>
@@ -109,11 +109,11 @@
 			<navigator url="/pages/flow/flow">
             <image
               class="image_17"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=87c81d1a5f31bd63e842837e2848e84d.png"
+              src="/static/index/flow1.png"
             />
             <image
               class="image_21 pos_15"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=bd143369f6a2b1c70e093e54a82d363e.png"
+              src="/static/index/flow2.png"
             />
             <text class="font_4 pos_11">服务流程</text>
             <text class="font_5 text_7 text_9 pos_13">优质服务 保驾护航</text>
@@ -124,11 +124,11 @@
 			<navigator url="/pages/case/case">
               <image
                 class="image_19 image_20"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=f6e0b7f31c16090f5a3d0eb16bebc4e7.png"
+                src="/static/index/case2.png"
               />
               <image
                 class="image_18 pos_10"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=3a362bc21d71c5e6ac8a713a89598f9d.png"
+                src="/static/index/case1.png"
               />
               <text class="font_5 text_7 text_10 pos_14">看案例 学经验</text>
               <text class="font_4 text_8 pos_12">经典案例</text>
@@ -141,10 +141,10 @@
                   <text class="font_4 text_11">法规前瞻</text>
                   <text class="mt-8 font_5 text_7 text_12">懂法规 守纪律</text>
                 </view>
-                <image
-                  class="image_19"
-                  src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=60d7b963eb2b940a9ffa4d26d3a04c0f.png"
-                />
+					<image
+					  class="image_19"
+					  src="/static/index/rule.png"
+					/>
               </view>
 			</navigator>
             </view>
@@ -156,7 +156,7 @@
             <text class="font_2 text_7 text_14">更多</text>
             <image
               class="shrink-0 image_7"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=23893878d4fb568f0781cbb1a7260dbe.png"
+              src="/static/index/more.png"
             />
           </view>
         </view>
@@ -164,30 +164,30 @@
       <view class="flex-col list">
         <view class="flex-col relative mt-10 list-item" v-for="(item, index) in items" :key="index">
           <view class="flex-row items-center group_10"  v-on:click="goMyTaskDetail()">
-            <text class="font text_15">洛阳黄河同力水泥有限责任公司绿色新能源...</text>
+            <text class="font text_15">{{item.title}}</text>
             <image
               class="ml-2 shrink-0 image_22"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=836bee5b34afb6717f93b2bfb18f4def.png"
+              src="/static/index/deploy1.png"
             />
           </view>
           <view class="flex-col items-start group_11">
-            <text class="font_6">项目编号：ZTW-12109196R</text>
-            <text class="font_6 text_16 mt-13">项目类型：工程类/房建标书</text>
+            <text class="font_6">项目编号：{{item.sno}}</text>
+            <text class="font_6 text_16 mt-13">项目类型：{{item.type}}</text>
           </view>
           <view class="flex-row justify-between items-center group_12">
             <view class="flex-col justify-start items-center text-wrapper">
-              <text class="font_5 text_17">已完成</text>
+              <text class="font_5 text_17" >{{item.status}}</text>
             </view>
             <view class="flex-row items-center">
-              <image
-                class="shrink-0 image_23"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=f28e940e6063f13dc8405f8cfb2ffd50.png"
-              />
-              <text class="font_6 text_18">发消息</text>
-              <image
-                class="shrink-0 image_23 image_24"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=43946acd6d9c68a111271051bce37c04.png"
-              />
+				<image
+				  class="shrink-0 image_23"
+				  src="/static/index/message.png"
+				/>
+				<text class="font_6 text_18">发消息</text>
+				<image
+				  class="shrink-0 image_23 image_24"
+				  src="/static/index/call.png"
+				/>
               <text class="font_6 text_19">打电话</text>
             </view>
           </view>
@@ -201,12 +201,12 @@
           <text class="font_2 text_7 text_14">更多</text>
           <image
             class="shrink-0 image_7"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=23893878d4fb568f0781cbb1a7260dbe.png"
+            src="/static/index/more.png"
           />
         </view>
       </view>
       <view class="mt-14 flex-col">
-        <view class="flex-col justify-start relative group_14">
+        <view class="flex-col justify-start relative group_14" v-for="(item, index) in items" :key="index">
           <view class="flex-col relative section_10">
             <text class="self-stretch font_7 text_25">
               洛阳黄河同力水泥有限责任公司绿色新材料项目污水处理站设备采购及安装询比（文件）采购....
@@ -216,29 +216,11 @@
               项目基本情况 1、项目编号：洛阳政采公开-2021-10号 2、项目...
             </text>
             <view class="flex-row items-center self-stretch group_15 mt-9">
-              <image
-                class="image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=52ab038a28c3236874db311c746bc8e1.png"
-              />
+              <image class="image_7" src="/static/index/position.png" />
               <text class="font_2 text_27">河南省·洛阳市</text>
-              <image
-                class="image_7 image_25"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4297be9602057c3456c0cfe6ad178c61.png"
-              />
+              <image class="image_7 image_25" src="/static/index/clock.png" />
+
               <text class="font_2 text_28">2021-10-31</text>
-            </view>
-          </view>
-          <view class="flex-col justify-start items-center text-wrapper_2 button_2">
-            <text class="font_5 text_24">工程类</text>
-          </view>
-        </view>
-        <view class="mt-10 flex-col justify-start relative group_14">
-          <view class="flex-col relative section_11">
-            <text class="font_7 text_25">
-              洛阳黄河同力水泥有限责任公司绿色新材料项目污水处理站设备采购及安装询比（文件）采购....
-            </text>
-            <view class="flex-col justify-start items-center text-wrapper_3 mt-9">
-              <text class="font_8 text_26">项目基本情况 1、项目编号：洛阳政采公开-2021-10号 2、项目...</text>
             </view>
           </view>
           <view class="flex-col justify-start items-center text-wrapper_2 button_2">
@@ -254,55 +236,69 @@
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {
-      items: [null, null],
-    };
-  },
+<script setup>
+import { ref } from 'vue';
 
-  methods: {
-	  goBidProxy(){
-		  uni.switchTab({
-		  	url: '/pages/bidproxy/bidproxy'
-		  })
-	  },
-	  goBidfee(){
-		  uni.navigateTo({
-		  	url: '/pages/bidfee/bidfee'
-		  })
-	  },
-	  goMyTask(){
-		  uni.navigateTo({
-		  	url: '/pages/user/mytask/mytask'
-		  })
-	  },
-	  goMyTaskDetail(){
-		  uni.navigateTo({
-		  	url: '/pages/user/mytask_detail/mytask_detail'
-		  })
-	  },
-	  goBidConfirm(){
-		  uni.navigateTo({
-		  	url: '/pages/bidding_template/bidding_confirm/bidding_confirm'
-		  })
-	  },
-	  goWinBidding(){
-		  uni.navigateTo({
-		  	url: '/pages/winbidding/winbidding'
-		  })
-	  },
-	  goBidTemplate(){
-		  uni.navigateTo({
-		  	url: '/pages/bidding_template/bidding_template'
-		  })
-	  }
-  },
+const items = [
+	{
+		"title": "洛阳黄河同力水泥有限责任公司绿色新能源",
+		"sno": "ZTW-12109196R",
+		"type": "工程类/房建标书",
+		"status": "已完成",
+		"done": true
+	},
+	{
+		"title": "洛阳黄河同力水泥有限责任公司绿色新能源",
+		"sno": "ZTW-12109196R",
+		"type": "工程类/房建标书",
+		"status": "待审核",
+		"done": false
+	}]
+
+const goBidProxy = () => {
+  uni.switchTab({
+    url: '/pages/bidproxy/bidproxy'
+  });
+};
+
+const goBidfee = () => {
+  uni.navigateTo({
+    url: '/pages/bidfee/bidfee'
+  });
+};
+
+const goMyTask = () => {
+  uni.navigateTo({
+    url: '/pages/user/mytask/mytask'
+  });
+};
+
+const goMyTaskDetail = () => {
+  uni.navigateTo({
+    url: '/pages/user/mytask_detail/mytask_detail'
+  });
+};
+
+const goBidConfirm = () => {
+  uni.navigateTo({
+    url: '/pages/bidding_template/bidding_confirm/bidding_confirm'
+  });
+};
+
+const goWinBidding = () => {
+  uni.navigateTo({
+    url: '/pages/winbidding/winbidding'
+  });
+};
+
+const goBidTemplate = () => {
+  uni.navigateTo({
+    url: '/pages/bidding_template/bidding_template'
+  });
 };
 </script>
+
+
 
 <style scoped lang="scss">
 .mt-13 {
@@ -365,7 +361,7 @@ export default {
         .image-wrapper_2 {
           opacity: 0.1;
           border-radius: 36rpx;
-          background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=6f1bfbba84abf87789b647d0973d1aca.png');
+          background-image: url('/static/index/banner_1_1.png');
           background-size: 100% 100%;
           background-repeat: no-repeat;
           .image_13 {
@@ -578,7 +574,7 @@ export default {
         height: 117rpx;
         .section_9 {
           padding: 24rpx 32rpx;
-          background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=f3474fd960fb31f1b9c4338b52bf7c4d.png');
+          background-image: url('/static/index/case1.png');
           background-size: 100% 100%;
           background-repeat: no-repeat;
           .text_11 {

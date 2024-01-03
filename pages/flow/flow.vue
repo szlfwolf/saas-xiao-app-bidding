@@ -8,22 +8,22 @@
         <view class="flex-row">
           <image
             class="image"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=de45c4b9200cbb0f4c6112808628a9bc.png"
+            src="/static/flow/de45c4b9200cbb0f4c6112808628a9bc.png"
           />
           <image
             class="image_2 ml-5"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=6c2df855d6b0741d9025015df39ee098.png"
+            src="/static/flow/6c2df855d6b0741d9025015df39ee098.png"
           />
           <image
             class="image_3 ml-5"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=07d18b8046c5af20976cc8363e5c8fa8.png"
+            src="/static/flow/07d18b8046c5af20976cc8363e5c8fa8.png"
           />
         </view>
       </view>
       <view class="flex-row justify-center relative group_3">
         <image
           class="image_4 pos_3"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=859c9731589073958cdfbdfd1b6dd60b.png"
+          src="/static/flow/859c9731589073958cdfbdfd1b6dd60b.png"
         />
         <text class="text_2">服务流程</text>
       </view>
@@ -31,14 +31,14 @@
         <view class="flex-row justify-start items-center image-wrapper">
           <image
             class="image_6"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=ff465c47eaf7a5dc580be9526a79f1cc.png"
+            src="/static/flow/ff465c47eaf7a5dc580be9526a79f1cc.png"
           />
         </view>
         <view class="section_3 ml-11"></view>
         <view class="flex-row justify-start items-center image-wrapper ml-11">
           <image
             class="image_5"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=cf3676537609a5ebdbd85e509fe5924a.png"
+            src="/static/flow/cf3676537609a5ebdbd85e509fe5924a.png"
           />
         </view>
       </view>
@@ -54,31 +54,31 @@
           <view class="flex-col justify-start items-end relative section_5">
             <image
               class="image_9"
-              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/9b8d4c1a090e53ab2c7641efd0256b7c.png"
+              src="/static/flow/9b8d4c1a090e53ab2c7641efd0256b7c.png"
             />
             <image
               class="image_8 pos_6"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=3e350b33d13439b4a4a0908b248250bf.png"
+              src="/static/flow/3e350b33d13439b4a4a0908b248250bf.png"
             />
             <view class="flex-col justify-start items-start image-wrapper_3 pos_11">
               <image
                 class="image_13"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=fea4abbb07e78bccf8938b2861008fd2.png"
+                src="/static/flow/fea4abbb07e78bccf8938b2861008fd2.png"
               />
             </view>
             <image
               class="image_12 pos_9"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=47cea1a068240003952eb9f4d96a4e87.png"
+              src="/static/flow/47cea1a068240003952eb9f4d96a4e87.png"
             />
             <view class="section_7 pos_10"></view>
             <image
               class="image_10 pos_8"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=0844a207576860c67627226fd7c3cc2b.png"
+              src="/static/flow/0844a207576860c67627226fd7c3cc2b.png"
             />
             <view class="flex-col justify-start items-center image-wrapper_2 pos_7">
               <image
                 class="image_11"
-                src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/95c382cd9e6f83e0fe45328fa82aed01.png"
+                src="/static/flow/95c382cd9e6f83e0fe45328fa82aed01.png"
               />
             </view>
           </view>
@@ -97,7 +97,7 @@
         <view class="flex-row items-center self-stretch">
           <image
             class="image_14"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=2e2021725d797d829d1cfa472938e479.png"
+            src="/static/flow/2e2021725d797d829d1cfa472938e479.png"
           />
           <text class="font_2 text_6 text_7 ml-5">赵*（昵称）等128人已免费咨询</text>
         </view>
@@ -117,7 +117,7 @@
       </view>
       <image
         class="shrink-0 self-center image_15"
-        src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=f821dc848b076722d2ff3e1a83daef15.png"
+        src="/static/flow/f821dc848b076722d2ff3e1a83daef15.png"
       />
       <view class="flex-row items-center self-stretch relative section_11">
         <view class="flex-col items-start flex-1">
@@ -129,11 +129,11 @@
           <view class="flex-col justify-start items-center relative group_9">
             <image
               class="image_17"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=d42a8242df634ed713675a247c59a80b.png"
+              src="/static/flow/d42a8242df634ed713675a247c59a80b.png"
             />
             <image
               class="image_16 pos_12"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=bf61d474a718a7aaf9a2eb15facbfda5.png"
+              src="/static/flow/bf61d474a718a7aaf9a2eb15facbfda5.png"
             />
           </view>
           <view class="shrink-0 relative section_12"></view>
@@ -141,12 +141,12 @@
       </view>
       <image
         class="shrink-0 self-center image_15 image_18"
-        src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=f821dc848b076722d2ff3e1a83daef15.png"
+        src="/static/flow/f821dc848b076722d2ff3e1a83daef15.png"
       />
     </view>
     <image
       class="image_7 pos_4"
-      src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=803913e5ae6a717d9199f6cd1f03164d.png"
+      src="/static/flow/803913e5ae6a717d9199f6cd1f03164d.png"
     />
     <view class="flex-col section_13 pos_13">
       <view class="flex-col justify-start items-center self-center text-wrapper_4">
@@ -156,11 +156,11 @@
         <view class="flex-col justify-start items-center relative group_11">
           <image
             class="image_19"
-            src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/ef08f45c351310a6736debd4f4c8ccdd.png"
+            src="/static/flow/ef08f45c351310a6736debd4f4c8ccdd.png"
           />
           <image
             class="image_20 pos_14"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=cf2742967423a713452810f10ff00cc4.png"
+            src="/static/flow/cf2742967423a713452810f10ff00cc4.png"
           />
           <view class="section_14 pos_15"></view>
         </view>
@@ -180,15 +180,15 @@
         <view class="flex-col justify-start items-center relative group_14">
           <image
             class="image_21"
-            src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/330996f196aa92fe9629b9b10bf796e4.png"
+            src="/static/flow/330996f196aa92fe9629b9b10bf796e4.png"
           />
           <image
             class="image_22 pos_16"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=99215d75e5f87b8d9b835b1b0264af07.png"
+            src="/static/flow/99215d75e5f87b8d9b835b1b0264af07.png"
           />
           <image
             class="image_23 pos_17"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=83fbaf2700429bcec277eb5bd80e906f.png"
+            src="/static/flow/83fbaf2700429bcec277eb5bd80e906f.png"
           />
           <view class="section_15 pos_18"></view>
         </view>
@@ -202,32 +202,32 @@
             <view class="flex-col justify-start items-center relative section_16">
               <image
                 class="image_30"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=f2e5b5eaf136a657529f3c5d25d1a559.png"
+                src="/static/flow/f2e5b5eaf136a657529f3c5d25d1a559.png"
               />
               <image
                 class="image_29 pos_24"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=6ae26af2b69dae5832f91c00a693a1d6.png"
+                src="/static/flow/6ae26af2b69dae5832f91c00a693a1d6.png"
               />
             </view>
             <image
               class="image_24 pos_19"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=534ce6651db251cdb94a7b0ad3425a59.png"
+              src="/static/flow/534ce6651db251cdb94a7b0ad3425a59.png"
             />
             <image
               class="image_25 pos_20"
-              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/b63334c3a767cae71d074ca13864829d.png"
+              src="/static/flow/b63334c3a767cae71d074ca13864829d.png"
             />
             <image
               class="image_27 pos_22"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=620d1c31a73bef2d0f036977c9ce36fa.png"
+              src="/static/flow/620d1c31a73bef2d0f036977c9ce36fa.png"
             />
             <image
               class="image_28 pos_23"
-              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/9c12924c5f094ab18d8d91ac3ce5f1d7.png"
+              src="/static/flow/9c12924c5f094ab18d8d91ac3ce5f1d7.png"
             />
             <image
               class="image_26 pos_21"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=33e59fb99fb1f3e58b0bac08507c65fc.png"
+              src="/static/flow/33e59fb99fb1f3e58b0bac08507c65fc.png"
             />
           </view>
           <view class="flex-col group_18">
@@ -252,41 +252,41 @@
                 <view class="flex-col justify-start items-end image-wrapper_4">
                   <image
                     class="image_32"
-                    src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/7e387f5791f34e3ceaeec5041264cf00.png"
+                    src="/static/flow/7e387f5791f34e3ceaeec5041264cf00.png"
                   />
                 </view>
                 <image
                   class="image_37 pos_30"
-                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/1b21cc5bad72c01905df781b069743d4.png"
+                  src="/static/flow/1b21cc5bad72c01905df781b069743d4.png"
                 />
                 <image
                   class="image_35 pos_28"
-                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/722991e7656dcbab76a31e71a162b370.png"
+                  src="/static/flow/722991e7656dcbab76a31e71a162b370.png"
                 />
                 <image
                   class="image_38 pos_31"
-                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/1cdc90c5d6cb523fb61ab2682db07218.png"
+                  src="/static/flow/1cdc90c5d6cb523fb61ab2682db07218.png"
                 />
                 <image
                   class="image_36 pos_29"
-                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/d5aa41763582d4050bcc989a0a8dfc7e.png"
+                  src="/static/flow/d5aa41763582d4050bcc989a0a8dfc7e.png"
                 />
                 <image
                   class="image_34 pos_27"
-                  src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b31336079ff1ab4e8561fe57c6aa151d.png"
+                  src="/static/flow/b31336079ff1ab4e8561fe57c6aa151d.png"
                 />
                 <image
                   class="image_39 pos_32"
-                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/a52fa02b4510ddcff3ab96b1c300020e.png"
+                  src="/static/flow/a52fa02b4510ddcff3ab96b1c300020e.png"
                 />
                 <image
                   class="image_33 pos_26"
-                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/aae8a79a18303fdbc4d9c501fb75f605.png"
+                  src="/static/flow/aae8a79a18303fdbc4d9c501fb75f605.png"
                 />
               </view>
               <image
                 class="image_31 pos_25"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=5bdc59d95e2d1761423e34475083f870.png"
+                src="/static/flow/5bdc59d95e2d1761423e34475083f870.png"
               />
               <view class="section_18 pos_33"></view>
             </view>
@@ -302,16 +302,16 @@
             <view class="flex-col justify-start items-start image-wrapper_5">
               <image
                 class="image_40"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=7d06af0d5ff05056fc3ccc203b130404.png"
+                src="/static/flow/7d06af0d5ff05056fc3ccc203b130404.png"
               />
             </view>
             <image
               class="image_42 pos_35"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=34551fe31404e0fedc88934dd1589658.png"
+              src="/static/flow/34551fe31404e0fedc88934dd1589658.png"
             />
             <image
               class="image_41 pos_34"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=73df7d23a4d6c812364b8fa30f88147f.png"
+              src="/static/flow/73df7d23a4d6c812364b8fa30f88147f.png"
             />
             <view class="section_19 pos_36"></view>
           </view>
@@ -334,34 +334,34 @@
             <view class="flex-col items-end relative group_24">
               <image
                 class="image_43"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=0d223e123c845bd3a7f1ad545b527d5d.png"
+                src="/static/flow/0d223e123c845bd3a7f1ad545b527d5d.png"
               />
               <image
                 class="image_48"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=72bb6ab609b5f7cbdae950537b82597f.png"
+                src="/static/flow/72bb6ab609b5f7cbdae950537b82597f.png"
               />
               <image
                 class="image_45 pos_38"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=f23ddb6ebb38325c20f04436892b9eea.png"
+                src="/static/flow/f23ddb6ebb38325c20f04436892b9eea.png"
               />
               <image
                 class="image_44 pos_37"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a183d3f99baead910093973209eb9973.png"
+                src="/static/flow/a183d3f99baead910093973209eb9973.png"
               />
               <image
                 class="image_46 pos_39"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=70996c4a59b764ce486755e8b0fc8666.png"
+                src="/static/flow/70996c4a59b764ce486755e8b0fc8666.png"
               />
               <image
                 class="image_47 pos_40"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=ed5c45f12c250e5f64a51f1a29cf171c.png"
+                src="/static/flow/ed5c45f12c250e5f64a51f1a29cf171c.png"
               />
             </view>
           </view>
           <view class="mt-22 flex-row justify-end items-center">
             <image
               class="image_49"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=c3f702eba32d2b19e509b22707b97480.png"
+              src="/static/flow/c3f702eba32d2b19e509b22707b97480.png"
             />
             <text class="ml-6 font_5 text_24">了解流程详情</text>
           </view>
@@ -375,16 +375,8 @@
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {};
-  },
+<script setup>
 
-  methods: {},
-};
 </script>
 
 <style scoped lang="scss">
@@ -505,7 +497,7 @@ export default {
   .section_4 {
     padding-left: 38rpx;
     padding-bottom: 328rpx;
-    background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=3fb0468a15c70c8f3f454eae6421d073.png');
+    background-image: url('/static/flow/3fb0468a15c70c8f3f454eae6421d073.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 1302rpx;
@@ -523,7 +515,7 @@ export default {
       }
       .section_5 {
         padding: 36rpx 0 236rpx;
-        background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=0c23074d2c452985c3e1d3f5e11c1a4f.png');
+        background-image: url('/static/flow/0c23074d2c452985c3e1d3f5e11c1a4f.png');
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 478rpx;
@@ -543,7 +535,7 @@ export default {
         }
         .image-wrapper_3 {
           padding-top: 44rpx;
-          background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=e5950d7e9bcb8af73b9d35332a9b0c62.png');
+          background-image: url('/static/flow/e5950d7e9bcb8af73b9d35332a9b0c62.png');
           background-size: 100% 100%;
           background-repeat: no-repeat;
           width: 316rpx;
@@ -590,7 +582,7 @@ export default {
         }
         .image-wrapper_2 {
           padding: 8rpx 0;
-          background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=fd7cf62a910c048a81c7e4bdb40c0ffd.png');
+          background-image: url('/static/flow/fd7cf62a910c048a81c7e4bdb40c0ffd.png');
           background-size: 100% 100%;
           background-repeat: no-repeat;
           width: 102rpx;
@@ -884,7 +876,7 @@ export default {
           width: 172rpx;
           .section_16 {
             padding: 28rpx 0 20rpx;
-            background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=e08f0b99f285728632a724d2faf27300.png');
+            background-image: url('/static/flow/e08f0b99f285728632a724d2faf27300.png');
             background-size: 100% 100%;
             background-repeat: no-repeat;
             width: 172rpx;
@@ -968,13 +960,13 @@ export default {
         flex: 1 1 277.4rpx;
         .section_17 {
           padding: 12rpx 0 8rpx;
-          background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/a91848124291d2faf6f4395692a48da9.png');
+          background-image: url('/static/flow/a91848124291d2faf6f4395692a48da9.png');
           background-position: 0% 0%;
           background-size: 268.8rpx 186.26rpx;
           background-repeat: no-repeat;
           .image-wrapper_4 {
             padding: 60rpx 0 68rpx;
-            background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=71360749458c77a9f437e1da6640b17e.png');
+            background-image: url('/static/flow/71360749458c77a9f437e1da6640b17e.png');
             background-size: 100% 100%;
             background-repeat: no-repeat;
             width: 190rpx;
@@ -1123,7 +1115,7 @@ export default {
       }
       .image-wrapper_5 {
         padding: 20rpx 0 48rpx;
-        background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/659128895a7e3f0310f81191/659128cd1bf67f00113d0c05/03fd5c0002d5ac26deaef491ef7c3580.png');
+        background-image: url('/static/flow/03fd5c0002d5ac26deaef491ef7c3580.png');
         background-position: 0% 0%;
         background-size: 268.42rpx 185.98rpx;
         background-repeat: no-repeat;

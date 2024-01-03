@@ -4,7 +4,7 @@
     <view class="flex-row section_5">
       <image
         class="self-center image_7"
-        src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=3f22133883cbe76cf616a7b10eeba089.png"
+        src="/static/user/3f22133883cbe76cf616a7b10eeba089.png"
       />
       <view class="ml-16 flex-col items-start flex-1 self-start group_2">
         <text class="text_3">Katie moss</text>
@@ -12,101 +12,100 @@
       </view>
     </view>
     <view class="flex-row equal-division section_6">
-      <view class="flex-col items-center equal-division-item" v-on:click="goHistory()">	
+      <view class="flex-col items-center equal-division-item">
         <text class="font_2 text_5">15</text>
         <text class="mt-10 font_3">浏览历史</text>
       </view>
-      <view class="flex-col items-center equal-division-item" v-on:click="goCollect()">	
+      <view class="flex-col items-center group_3 equal-division-item">
         <text class="font_2">8</text>
         <text class="mt-10 font_3 text_7">我的收藏</text>
       </view>
-      <view class="flex-col items-center equal-division-item" v-on:click="goMyTask()">		
+      <view class="flex-col items-center group_4 equal-division-item">
         <text class="font_2">3</text>
         <text class="mt-10 font_3 text_8">我的发布</text>
       </view>
-      <view class="flex-col items-center equal-division-item" v-on:click="goDownload()">	
+      <view class="flex-col items-center group_5 equal-division-item">
         <text class="font_2 text_6">1</text>
         <text class="mt-10 font_3 text_9">我的下载</text>
       </view>
     </view>
     <view class="flex-col group_6">
-      <view class="flex-row justify-between items-center" v-on:click="goMyTask">				
+      <view class="flex-row justify-between items-center">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=07756e2ca8a647d5bd223282a61e6d93.png"
+            src="/static/user/07756e2ca8a647d5bd223282a61e6d93.png"
           />
-          <text class="font_4 ml-9">我的发布</text>		
+          <text class="font_4 ml-9">我的发布</text>
         </view>
         <image
           class="image_9"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b7010c985efcdd953a2ed889d8d517c4.png"
-        />		
-		</view>
-		
+          src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
+        />
+      </view>
       <view class="flex-row justify-between items-center group_7">
-        <view class="flex-row items-center" v-on:click="goMessage()">
+        <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=818420b7d27763aac86ef12b879b7205.png"
+            src="/static/user/818420b7d27763aac86ef12b879b7205.png"
           />
           <text class="font_4 text_10 ml-9">消息通知</text>
         </view>
         <image
           class="image_9"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b7010c985efcdd953a2ed889d8d517c4.png"
+          src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_8">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=e7b3029e29699073ab145f1d2ebea905.png"
+            src="/static/user/e7b3029e29699073ab145f1d2ebea905.png"
           />
           <text class="font_4 ml-9">客服服务</text>
         </view>
         <image
           class="image_9"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b7010c985efcdd953a2ed889d8d517c4.png"
+          src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_9">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4ddc45fca9bb1bd699e93bd2df27f891.png"
+            src="/static/user/4ddc45fca9bb1bd699e93bd2df27f891.png"
           />
           <text class="font_4 text_11 ml-9">公司介绍</text>
         </view>
         <image
           class="image_9"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b7010c985efcdd953a2ed889d8d517c4.png"
+          src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
         />
       </view>
-      <view class="flex-row justify-between items-center group_10"  v-on:click="goFeedback()">
+      <view class="flex-row justify-between items-center group_10">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=1311bfa14795315d29953364bd2af7da.png"
+            src="/static/user/1311bfa14795315d29953364bd2af7da.png"
           />
           <text class="font_4 text_12 ml-9">意见反馈</text>
         </view>
         <image
           class="image_9"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b7010c985efcdd953a2ed889d8d517c4.png"
+          src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_11">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=cbe0fa2234a8ea8d2c9546ada7a272c6.png"
+            src="/static/user/cbe0fa2234a8ea8d2c9546ada7a272c6.png"
           />
           <text class="font_4 ml-9">安全退出</text>
         </view>
         <image
           class="image_9"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b7010c985efcdd953a2ed889d8d517c4.png"
+          src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
         />
       </view>
     </view>
@@ -122,38 +121,7 @@ export default {
     return {};
   },
 
-  methods: {
-	  goMyTask(){
-		  uni.navigateTo({
-		  	url:"/pages/user/mytask/mytask"
-		  })
-	  },
-	  goHistory(){
-	  		  uni.navigateTo({
-	  		  	url:"/pages/user/history/history"
-	  		  })
-	  },
-	  goCollect(){
-	  		  uni.navigateTo({
-	  		  	url:"/pages/user/collect/collect"
-	  		  })
-	  },
-	  goDownload(){
-	  		  uni.navigateTo({
-	  		  	url:"/pages/user/download/download"
-	  		  })
-	  },
-	  goMessage(){
-		  uni.navigateTo({
-		  	url:"/pages/user/message/message"
-		  })
-	  },
-	  goFeedback(){
-		  uni.navigateTo({
-		  	url: "/pages/feedback/feedback"
-		  })
-	  }
-  },
+  methods: {},
 };
 </script>
 
