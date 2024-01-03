@@ -5,51 +5,51 @@
       <view class="flex-col self-center relative group_3">
         <image
           class="self-start image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=aa0fce47bab6c0f8078f494125ac9c70.png"
+          src="/static/rule/aa0fce47bab6c0f8078f494125ac9c70.png"
         />
         <view class="flex-col self-stretch section_6">
           <image
             class="shrink-0 self-end image_12"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=c492441e1650e010e99044fddedf0122.png"
+            src="/static/rule/c492441e1650e010e99044fddedf0122.png"
           />
           <view class="flex-row items-end self-stretch relative group_5">
             <image
               class="image_16 image_17"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=7794d261cb1682a693dde4bf1f775552.png"
+              src="/static/rule/7794d261cb1682a693dde4bf1f775552.png"
             />
             <image
               class="image_14 ml-3"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=9742282452ded95608590236fc2490bb.png"
+              src="/static/rule/9742282452ded95608590236fc2490bb.png"
             />
           </view>
         </view>
         <image
           class="image_11 pos_6"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=6b3e0af2fc17a5faff56d1b178146b02.png"
+          src="/static/rule/6b3e0af2fc17a5faff56d1b178146b02.png"
         />
         <image
           class="image_10 pos_5"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=5b98e6ec9a48c4b7947b2f33b3593ac8.png"
+          src="/static/rule/5b98e6ec9a48c4b7947b2f33b3593ac8.png"
         />
         <image
           class="image_13 pos_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=63bd9e21fc751e47368f71939ee6a2e5.png"
+          src="/static/rule/63bd9e21fc751e47368f71939ee6a2e5.png"
         />
         <image
           class="image_15 pos_8"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=1cfbf99d43bf91296501bcbd95bc8791.png"
+          src="/static/rule/1cfbf99d43bf91296501bcbd95bc8791.png"
         />
         <image
           class="image_9 pos_4"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=2df399c27e04c3ed664ad6506c9a6a16.png"
+          src="/static/rule/2df399c27e04c3ed664ad6506c9a6a16.png"
         />
         <image
           class="image_8 pos_3"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b7a8984316231173189085af29474548.png"
+          src="/static/rule/b7a8984316231173189085af29474548.png"
         />
         <image
           class="image_16 pos_9"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=aa03714926d54e5c0fef1ca2be055e29.png"
+          src="/static/rule/aa03714926d54e5c0fef1ca2be055e29.png"
         />
       </view>
       <view class="flex-col self-start group_4">
@@ -85,7 +85,7 @@
           <view class="flex-row items-center">
             <image
               class="shrink-0 image_18"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4297be9602057c3456c0cfe6ad178c61.png"
+              src="/static/rule/4297be9602057c3456c0cfe6ad178c61.png"
             />
             <text class="ml-8 font_6">2021-11-08</text>
             <text class="ml-8 font_6">13:04</text>
@@ -98,18 +98,8 @@
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {
-      items: [null, null, null],
-    };
-  },
-
-  methods: {},
-};
+<script setup>
+const items= [null, null, null,null];
 </script>
 
 <style scoped lang="scss">
@@ -143,7 +133,7 @@ export default {
         .section_6 {
           margin-top: 64rpx;
           padding: 24rpx 12rpx 16rpx;
-          background-image: url('https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=1ad9e72d9c26d4d6380992e232ef0816.png');
+          background-image: url('/static/rule/1ad9e72d9c26d4d6380992e232ef0816.png');
           background-size: 100% 100%;
           background-repeat: no-repeat;
           .image_12 {

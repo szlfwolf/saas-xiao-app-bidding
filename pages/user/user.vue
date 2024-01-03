@@ -185,7 +185,6 @@ export default {
         }
       }
       .group_3 {
-        margin-left: 372rpx;
         .text_7 {
           line-height: 18.42rpx;
         }
