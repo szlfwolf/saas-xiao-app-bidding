@@ -6,10 +6,6 @@
         <text class="font text_3">选择预算行业</text>
         <view class="flex-row items-center">
           <text class="font_2 text_4">土建</text>
-          <image
-            class="shrink-0 image_7 ml-3"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=e058bf7d2b5307229d9f5dce289ab2b5.png"
-          />
         </view>
       </view>
       <view class="flex-col justify-start section_6">

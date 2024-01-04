@@ -5,7 +5,7 @@
       <view class="flex-row items-center list-item mt-11" v-for="(item, index) in items" :key="index">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=e82b9f9f1d2f2f36a68f6cd7b14ada6d.png"
+          src="/static/user/download/e82b9f9f1d2f2f36a68f6cd7b14ada6d.png"
         />
         <view class="flex-col flex-1 ml-15">
           <text class="font">标准工程机械设备采购招标文件出版（202版...</text>
@@ -19,7 +19,7 @@
     <view class="flex-col justify-start items-center image-wrapper_2 mt-266">
       <image
         class="image_8"
-        src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=bbeb613592891142fd88f1368b736645.png"
+        src="/static/user/trush.png"
       />
     </view>
   </view>

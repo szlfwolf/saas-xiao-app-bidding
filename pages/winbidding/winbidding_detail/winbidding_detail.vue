@@ -1,4 +1,4 @@
-<template>
+	<template>
 <view class="flex-col page">
   <view class="flex-col flex-1 group_2">
     <view class="flex-col section_5">
@@ -40,10 +40,7 @@
         <text class="font_2 text_13">
           4）本次项目投标供应商所提供书源要求来自正规渠道，所供图书要求内容健康、学术研究性强，必须是正规的、大型的、权威的出版社的出版物。
         </text>
-        <image
-          class="image_7 pos_3"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b150a353e65e80fa00971b5502dceb96.png"
-        />
+
       </view>
     </view>
   </view>

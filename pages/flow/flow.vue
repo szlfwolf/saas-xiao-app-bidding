@@ -2,47 +2,6 @@
 <view class="flex-col justify-start relative page">
   <view class="flex-col justify-start relative">
     <view class="section"></view>
-    <view class="flex-col section_2 pos">
-      <view class="flex-row justify-between items-center group">
-        <text class="font text">9:41</text>
-        <view class="flex-row">
-          <image
-            class="image"
-            src="/static/flow/de45c4b9200cbb0f4c6112808628a9bc.png"
-          />
-          <image
-            class="image_2 ml-5"
-            src="/static/flow/6c2df855d6b0741d9025015df39ee098.png"
-          />
-          <image
-            class="image_3 ml-5"
-            src="/static/flow/07d18b8046c5af20976cc8363e5c8fa8.png"
-          />
-        </view>
-      </view>
-      <view class="flex-row justify-center relative group_3">
-        <image
-          class="image_4 pos_3"
-          src="/static/flow/859c9731589073958cdfbdfd1b6dd60b.png"
-        />
-        <text class="text_2">服务流程</text>
-      </view>
-      <view class="flex-row justify-center items-center group_2 pos_2">
-        <view class="flex-row justify-start items-center image-wrapper">
-          <image
-            class="image_6"
-            src="/static/flow/ff465c47eaf7a5dc580be9526a79f1cc.png"
-          />
-        </view>
-        <view class="section_3 ml-11"></view>
-        <view class="flex-row justify-start items-center image-wrapper ml-11">
-          <image
-            class="image_5"
-            src="/static/flow/cf3676537609a5ebdbd85e509fe5924a.png"
-          />
-        </view>
-      </view>
-    </view>
     <view class="flex-col section_4 pos_5">
       <view class="flex-row self-stretch group_4">
         <view class="flex-col self-start group_5">

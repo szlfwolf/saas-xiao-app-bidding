@@ -12,25 +12,25 @@
       </view>
     </view>
     <view class="flex-row equal-division section_6">
-      <view class="flex-col items-center equal-division-item">
+      <view class="flex-col items-center equal-division-item" @click="gotoPage('/pages/user/history/history')">
         <text class="font_2 text_5">15</text>
         <text class="mt-10 font_3">浏览历史</text>
       </view>
-      <view class="flex-col items-center group_3 equal-division-item">
+      <view class="flex-col items-center group_3 equal-division-item" @click="gotoPage('/pages/user/collect/collect')">
         <text class="font_2">8</text>
         <text class="mt-10 font_3 text_7">我的收藏</text>
       </view>
-      <view class="flex-col items-center group_4 equal-division-item">
+      <view class="flex-col items-center group_4 equal-division-item" @click="gotoPage('/pages/user/mytask/mytask')">
         <text class="font_2">3</text>
         <text class="mt-10 font_3 text_8">我的发布</text>
       </view>
-      <view class="flex-col items-center group_5 equal-division-item">
+      <view class="flex-col items-center group_5 equal-division-item" @click="gotoPage('/pages/user/download/download')">
         <text class="font_2 text_6">1</text>
         <text class="mt-10 font_3 text_9">我的下载</text>
       </view>
     </view>
     <view class="flex-col group_6">
-      <view class="flex-row justify-between items-center">
+      <view class="flex-row justify-between items-center" @click="gotoPage('/pages/user/mytask/mytask')">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
@@ -43,7 +43,7 @@
           src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
         />
       </view>
-      <view class="flex-row justify-between items-center group_7">
+      <view class="flex-row justify-between items-center group_7" @click="gotoPage('/pages/user/message/message')">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
@@ -82,7 +82,7 @@
           src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
         />
       </view>
-      <view class="flex-row justify-between items-center group_10">
+      <view class="flex-row justify-between items-center group_10" @click="gotoPage('/pages/user/feedback/feedback')">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
@@ -113,15 +113,19 @@
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {};
-  },
-
-  methods: {},
+<script setup>
+const tabUrl = ['/pages/bidproxy/bidproxy']
+			
+const gotoPage = (pageUrl) => {
+	if( tabUrl.indexOf(pageUrl) >= 0 ){
+		uni.switchTab({
+			url: pageUrl
+		});
+	}else{
+		uni.navigateTo({
+			url: pageUrl
+		});	
+	}	
 };
 </script>
 

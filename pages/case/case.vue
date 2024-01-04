@@ -41,7 +41,7 @@
             <view class="flex-row items-center group_5">
               <image
                 class="shrink-0 image_8"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4297be9602057c3456c0cfe6ad178c61.png"
+                src="@/static/index/clock.png"
               />
               <text class="ml-6 font_6">2021-11-11</text>
             </view>

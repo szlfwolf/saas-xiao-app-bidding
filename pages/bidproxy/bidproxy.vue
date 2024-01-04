@@ -7,7 +7,7 @@
         <text class="font text_4">工程类/通信标书</text>
         <image
           class="shrink-0 image_7 ml-1"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=9cbb0f0bdfb605b3fc38ad981f6e229d.png"
+          src="@/static/bidproxy/9cbb0f0bdfb605b3fc38ad981f6e229d.png"
         />
       </view>
     </view>
@@ -22,7 +22,7 @@
             <view class="flex-row items-center">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=60db9abf1d8cbcdd46451c5d3c340177.png"
+                src="@/static/bidproxy/60db9abf1d8cbcdd46451c5d3c340177.png"
               />
               <text class="ml-6 text_5">了解电子标流程</text>
             </view>
@@ -74,7 +74,7 @@
         </view>
       </view>
     </view>
-    <view class="mt-30 flex-col justify-start items-center button text-wrapper_4" v-on:click="goNext()">
+    <view class="mt-30 flex-col justify-start items-center button text-wrapper_4">
       <text class="text_18">下一步</text>
     </view>
   </view>
@@ -90,13 +90,7 @@ export default {
     return {};
   },
 
-  methods: {
-	  goNext(){
-		  uni.navigateTo({
-		  	url: '/pages/bidproxy/bidproxy_confirm/bidproxy_confirm'
-		  })
-	  }
-  },
+  methods: {},
 };
 </script>
 

@@ -183,7 +183,7 @@
 			}
 		},
 		{
-			"path" : "pages/feedback/feedback",
+			"path" : "pages/user/feedback/feedback",
 			"style" : 
 			{
 				"navigationBarTitleText" : "个人中心 - 意见反馈",

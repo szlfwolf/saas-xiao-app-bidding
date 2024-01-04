@@ -10,28 +10,28 @@
         <text class="font text_4">如何进行标书咨询？</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_4">
         <text class="font text_5">如何上传突破图片、文件和压缩包？</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_5">
         <text class="font text_6">咨询后多久能收到回复？</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_6">
         <text class="font">不同类型的项目如何收费？</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
     </view>
@@ -44,35 +44,35 @@
         <text class="font text_8">图片或文件上传失败后怎么做？</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_4">
         <text class="font text_9">下载的标书模板为何打不开？</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_5">
         <text class="font text_10">文件审核流程和显示状态说明！</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_6">
         <text class="font text_11">如何查看我发布的任务进度？</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
       <view class="flex-row justify-between items-center group_7">
         <text class="font">可以使用其他方式发送文件么？</text>
         <image
           class="image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=92729c3d9edee381614afc768d37c8db.png"
+          src="@/static/help/92729c3d9edee381614afc768d37c8db.png"
         />
       </view>
     </view>

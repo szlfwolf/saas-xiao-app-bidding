@@ -18,7 +18,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -28,7 +28,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -38,7 +38,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -48,7 +48,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -58,7 +58,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -68,7 +68,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -78,7 +78,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -88,7 +88,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -98,7 +98,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -108,7 +108,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -118,7 +118,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -128,7 +128,7 @@
             <view class="flex-row items-center flex-1">
               <image
                 class="shrink-0 image_7"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a485a5f98c89cb69243106e0f2764aa3.png"
+                src="/static/user/circle.png"
               />
               <text class="font_2 ml-9">河北省体育局摔跤拳击跆拳道运动管理...</text>
             </view>
@@ -138,7 +138,7 @@
         <view class="flex-col justify-start items-center image-wrapper_2 mt-31">
           <image
             class="image_8"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=bbeb613592891142fd88f1368b736645.png"
+            src="/static/user/trush.png"
           />
         </view>
       </view>
