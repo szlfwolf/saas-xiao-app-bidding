@@ -13,26 +13,44 @@
 					</navigator>
 				</view>
 				<view class="flex-col">
-					<image class="banner-img"
-						src="@/static/index/banner1.png" />
+					<!-- banner 轮播图 -->
+					<view class="swiper" v-if="slideShows.length">
+						<swiper indicator-dots="true" :autoplay="true" :circular="circular" :interval="interval"
+							:duration="duration" indicator-color="rgba(255,255,255,0.6)" indicator-active-color="#fff">
+							<block v-for="(item,index) in slideShows" :key="index">
+								<swiper-item>
+									<navigator :url='item.url' class='slide-navigator acea-row row-between-wrapper'
+										hover-class='none'>
+										<image :src="item.picUrl" class="banner-img" lazy-load></image>
+									</navigator>
+								</swiper-item>
+							</block>
+						</swiper>
+					</view>
+					<!-- <image class="banner-img" src="@/static/index/banner1.png" /> -->
 					<view class="flex-row equal-division">
-						<view class="flex-col items-center group_7 equal-division-item" v-on:click="gotoPage('/pages/bidproxy/bidproxy')">
+						<view class="flex-col items-center group_7 equal-division-item"
+							v-on:click="gotoPage('/pages/bidproxy/bidproxy')">
 							<image class="image_16" src="@/static/index/mid1.png" />
 							<text class="mt-10 font_2 text_7">代写标书</text>
 						</view>
-						<view class="flex-col items-center group_7 equal-division-item" v-on:click="gotoPage('/pages/bidfee/bidfee')">
+						<view class="flex-col items-center group_7 equal-division-item"
+							v-on:click="gotoPage('/pages/bidfee/bidfee')">
 							<image class="image_16" src="@/static/index/mid2.png" />
 							<text class="mt-10 font_2 text_7">代做预算</text>
 						</view>
-						<view class="flex-col items-center group_7 equal-division-item" v-on:click="gotoPage('/pages/bidding_template/bidding_confirm/bidding_confirm')">
+						<view class="flex-col items-center group_7 equal-division-item"
+							v-on:click="gotoPage('/pages/bidding_template/bidding_confirm/bidding_confirm')">
 							<image class="image_16" src="@/static/index/mid3.png" />
 							<text class="mt-10 font_2 text_7">标书审核</text>
 						</view>
-						<view class="flex-col items-center group_7 equal-division-item" v-on:click="gotoPage('/pages/bidding_template/bidding_template')">
+						<view class="flex-col items-center group_7 equal-division-item"
+							v-on:click="gotoPage('/pages/bidding_template/bidding_template')">
 							<image class="image_16" src="@/static/index/mid4.png" />
 							<text class="mt-10 font_2 text_7">标书模板</text>
 						</view>
-						<view class="flex-col items-center group_7 equal-division-item" v-on:click="gotoPage('/pages/winbidding/winbidding')">
+						<view class="flex-col items-center group_7 equal-division-item"
+							v-on:click="gotoPage('/pages/winbidding/winbidding')">
 							<image class="image_16" src="@/static/index/mid5.png" />
 							<text class="mt-10 font_2 text_7">中标信息</text>
 						</view>
@@ -68,7 +86,7 @@
 							</view>
 						</view>
 					</view>
-					<view class="flex-row justify-between group_9 view">
+					<view class="flex-row justify-between group_9 view" v-if="login">
 						<text class="font text_13">我的发布</text>
 						<view class="flex-row items-center" v-on:click="gotoPage('/pages/user/mytask/mytask')">
 							<text class="font_2 text_7 text_14">更多</text>
@@ -76,9 +94,10 @@
 						</view>
 					</view>
 				</view>
-				<view class="flex-col list">
+				<view class="flex-col list" v-if="login">
 					<view class="flex-col relative mt-10 list-item" v-for="(item, index) in items" :key="index">
-						<view class="flex-row items-center group_10" v-on:click="gotoPage('/pages/user/mytask_detail/mytask_detail')">
+						<view class="flex-row items-center group_10"
+							v-on:click="gotoPage('/pages/user/mytask_detail/mytask_detail')">
 							<text class="font text_15">{{item.title}}</text>
 							<image class="ml-2 shrink-0 image_22" src="/static/index/deploy1.png" />
 						</view>
@@ -110,21 +129,22 @@
 					</view>
 				</view>
 				<view class="mt-14 flex-col">
-					<view class="flex-col justify-start relative group_14" v-for="(item, index) in items" :key="index">
+					<view class="flex-col justify-start relative group_14" v-for="(item, index) in subItems"
+						:key="index">
 						<view class="flex-col relative section_10">
 							<text class="self-stretch font_7 text_25">
-								洛阳黄河同力水泥有限责任公司绿色新材料项目污水处理站设备采购及安装询比（文件）采购....
+								{{item.title}}
 							</text>
 							<view class="self-stretch divider mt-9"></view>
 							<text class="self-center font_8 text_26 mt-9">
-								项目基本情况 1、项目编号：洛阳政采公开-2021-10号 2、项目...
+								项目基本情况 1、项目编号：{{item.sno}} 2、项目...
 							</text>
 							<view class="flex-row items-center self-stretch group_15 mt-9">
 								<image class="image_7" src="/static/index/position.png" />
-								<text class="font_2 text_27">河南省·洛阳市</text>
+								<text class="font_2 text_27">{{item.city}}</text>
 								<image class="image_7 image_25" src="/static/index/clock.png" />
 
-								<text class="font_2 text_28">2021-10-31</text>
+								<text class="font_2 text_28">{{item.date}}</text>
 							</view>
 						</view>
 						<view class="flex-col justify-start items-center text-wrapper_2 button_2">
@@ -134,63 +154,60 @@
 				</view>
 			</view>
 		</view>
-		<view class="flex-row justify-between tab-bar">
-
-		</view>
 	</view>
 </template>
 
-<script setup>
+<script setup lang="ts">
 	import {
 		ref
 	} from 'vue';
+	import { onShow, onHide, onLoad } from '@dcloudio/uni-app'
+	import * as IndexApi from '@/api/index'
+	import * as UserApi from '@/api/user'
 
-	const items = [{
-			"title": "洛阳黄河同力水泥有限责任公司绿色新能源",
-			"sno": "ZTW-12109196R",
-			"type": "工程类/房建标书",
-			"status": "已完成",
-			"done": true
-		},
-		{
-			"title": "洛阳黄河同力水泥有限责任公司绿色新能源",
-			"sno": "ZTW-12109196R",
-			"type": "工程类/房建标书",
-			"status": "待审核",
-			"done": false
-		}
-	]
+	const slideShows = ref([]); // 轮播图
+	const circular = ref(true);
+	const interval = ref(3000);
+	const duration = ref(500);
+	const items = ref([]);
+	const subItems = ref([]);
+	const login = ref(false)
+	onShow(() => {
+		console.log('index show')
+		const user = uni.getStorageSync("user");
+		login.value = user ? true : false;
+		items.value = UserApi.getDeployTask();
+		subItems.value = UserApi.getSubscribeTask();
+	})
+	onLoad(() => {
+		console.log('index Load')
+		slideShows.value = IndexApi.getBanners();
+	});
 
+	const doneStyle = ref("text-wrapper-done");
+	const checkStyle = ref("text-wrapper-check");
 
-	const doneStyle = ref("text-wrapper-done")
-	const checkStyle = ref("text-wrapper-check")
-
-	const tabUrl = ['/pages/bidproxy/bidproxy']
-				
-	const gotoPage = (pageUrl) => {
-		if( tabUrl.indexOf(pageUrl) >= 0 ){
+	const tabUrl = ['/pages/bidproxy/bidproxy'];
+	const gotoPage = (pageUrl : String) => {
+		if (tabUrl.indexOf(pageUrl) >= 0) {
 			uni.switchTab({
 				url: pageUrl
 			});
-		}else{
+		} else {
 			uni.navigateTo({
 				url: pageUrl
-			});	
-		}	
+			});
+		}
 	};
-
-
 </script>
 
-
-
 <style scoped lang="scss">
-	
 	.banner-img {
-	  margin: 0 32rpx;
-	  width: 91.4667vw;
-	  height: 42.6667vw;
+		margin: 0 32rpx;
+		width: 91.4667vw;
+		height: 42.6667vw;
 	}
+
 	.mt-13 {
 		margin-top: 26rpx;
 	}

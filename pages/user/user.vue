@@ -95,7 +95,7 @@
           src="/static/user/b7010c985efcdd953a2ed889d8d517c4.png"
         />
       </view>
-      <view class="flex-row justify-between items-center group_11">
+      <view class="flex-row justify-between items-center group_11" @click="logout">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
@@ -114,7 +114,23 @@
 </template>
 
 <script setup>
-const tabUrl = ['/pages/bidproxy/bidproxy']
+import { ref } from 'vue';
+import { onShow, onHide, onLoad } from '@dcloudio/uni-app'
+onShow(() => {
+	const user = uni.getStorageSync("user");
+	console.log(user)
+	if(!user){
+		uni.navigateTo({
+			url: '/pages/login/login'
+		})
+	}
+});
+const logout=()=>{
+	uni.removeStorageSync("user");
+	gotoPage('/pages/index/index')
+}
+	
+const tabUrl = ['/pages/index/index','/pages/bidproxy/bidproxy']
 			
 const gotoPage = (pageUrl) => {
 	if( tabUrl.indexOf(pageUrl) >= 0 ){
