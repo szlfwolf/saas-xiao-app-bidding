@@ -6,10 +6,6 @@
         <text class="font text_3">选择预算行业</text>
         <view class="flex-row items-center">
           <text class="font_2 text_4">土建</text>
-          <image
-            class="shrink-0 image_7 ml-3"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=e058bf7d2b5307229d9f5dce289ab2b5.png"
-          />
         </view>
       </view>
       <view class="flex-col justify-start section_6">
@@ -91,7 +87,7 @@
         <view class="flex-col justify-start items-center self-stretch text-wrapper_4">
           <text class="font_3 text_23">点击上传文件</text>
         </view>
-        <text class="self-start text_24">提示: 支持&lt;20MB的文件</text>
+        <text class="self-start text_24">提示: 支持小于20MB的文件</text>
       </view>
       <view class="flex-col section_10">
         <text class="self-start font text_25">备注</text>

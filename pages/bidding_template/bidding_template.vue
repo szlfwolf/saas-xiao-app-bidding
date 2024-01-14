@@ -12,12 +12,28 @@
         <view class="self-start section_6"></view>
       </view>
       <view class="flex-col list">
-        <view class="flex-row items-center mt-10 list-item" v-for="(item, index) in items" :key="index" v-on:click="goDetail(index)">
-          <image
-            class="shrink-0 image_7"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=c7e88cfaf2bca456b4a1698ba32907d2.png"
-          />
-          <text class="flex-1 font_3 text_6 ml-5">标准土木工程机械设备采购招标文件出版（2020）.docx</text>
+        <view class="flex-col list-item mt-11" v-for="(item, index) in items" :key="index"  
+		@click="gotoPage('/pages/bidding_template/bidding_template_detail/bidding_template_detail?sno'+item.sno)">
+          <view class="flex-row items-center">
+            <image
+              class="shrink-0 image_7"
+              src="@/static/template/c7e88cfaf2bca456b4a1698ba32907d2.png"
+            />
+            <text class="flex-1 font_3 text_6 ml-5">{{item.title}}</text>
+          </view>
+          <view class="mt-10 flex-row justify-between items-center group_4">
+            <view class="flex-row items-center">
+              <image
+                class="shrink-0 image_9"
+                src="@/static/template/d9a77ebad1ae28d4eee5187e9d134e91.png"
+              />
+              <text class="ml-6 font_4">2021-10-31</text>
+            </view>
+            <image
+              class="image_8 button"
+              src="@/static/template/8e79416997d3970e8eae81ad16461b87.png"
+            />
+          </view>
         </view>
       </view>
     </view>
@@ -25,33 +41,32 @@
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {
-      items: [null, null, null, null, null, null, null, null],
-    };
-  },
-
-  methods: {
-	  goDetail(index){
-		  console.log(index)
-		  uni.navigateTo({
-		  	url: "/pages/bidding_template/bidding_template_detail/bidding_template_detail"
-		  })
-	  }
-  },
+<script setup>
+const items = [ {"sno":"001","title":"标准土木工程机械设备采购招标文件出版（2020）.docx"},{"sno":"002","title":"标准土木工程机械设备采购招标文件出版（2021）.docx"}]
+const tabUrl = ['/pages/bidproxy/bidproxy']
+			
+const gotoPage = (pageUrl) => {
+	if( tabUrl.indexOf(pageUrl) >= 0 ){
+		uni.switchTab({
+			url: pageUrl
+		});
+	}else{
+		uni.navigateTo({
+			url: pageUrl
+		});	
+	}	
 };
 </script>
 
 <style scoped lang="scss">
+.mt-11 {
+  margin-top: 22rpx;
+}
 .ml-5 {
   margin-left: 10rpx;
 }
 .page {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -95,7 +110,7 @@ export default {
       }
     }
     .list {
-      padding: 20rpx 0 168rpx;
+      padding-bottom: 540rpx;
       .list-item {
         padding: 20rpx 20rpx 20rpx 32rpx;
         background-color: #ffffff;
@@ -115,6 +130,28 @@ export default {
         }
         .text_6 {
           text-align: justify;
+        }
+        .group_4 {
+          padding: 0 8rpx;
+          .image_9 {
+            width: 32rpx;
+            height: 32rpx;
+          }
+          .font_4 {
+            font-size: 24rpx;
+            font-family: PingFang SC;
+            line-height: 17.8rpx;
+            color: #00000080;
+          }
+          .image_8 {
+            margin-right: 8rpx;
+          }
+          .button {
+            filter: drop-shadow(0rpx 2rpx 2rpx #005cb240);
+            border-radius: 20rpx;
+            width: 84rpx;
+            height: 40rpx;
+          }
         }
       }
     }

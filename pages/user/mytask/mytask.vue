@@ -20,10 +20,9 @@
               <text class="font_6 text_8 ml-21">2021-10-24</text>
             </view>
           </view>
-          <view class="ml-20 flex-col justify-start items-center button text-wrapper">
-			<navigator url="/pages/user/mytask_detail/mytask_detail">
+          <view class="ml-20 flex-col justify-start items-center button text-wrapper" 
+		  :class="[item.status == 'done' ? doneStyle : ( item.status == 'check' ? checkStyle : doingStyle)]">
             <text class="font_4 text_7">待审核</text>
-			</navigator>
           </view>
         </view>
       </view>
@@ -32,18 +31,17 @@
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {
-      items: [null, null, null],
-    };
-  },
+<script setup>
+import { ref } from "vue"
 
-  methods: {},
-};
+const items= [
+	{"status": "done"}, {"status": "doing"}, {"status": "check"},
+]
+const doneStyle=ref("text-wrapper-done");
+const doingStyle=ref("text-wrapper-doing");
+const checkStyle=ref("text-wrapper-check");
+	
+	
 </script>
 
 <style scoped lang="scss">
@@ -153,6 +151,15 @@ export default {
           width: 112rpx;
           height: 44rpx;
         }
+		.text-wrapper-done{
+			background-color: #52c41a;
+		}
+		.text-wrapper-doing{
+			background-color: #40a9ff;
+		}
+		.text-wrapper-check{
+			background-color: #fa9014;
+		}
       }
     }
   }

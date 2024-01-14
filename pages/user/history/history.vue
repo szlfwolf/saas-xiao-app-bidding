@@ -7,7 +7,7 @@
         <view class="flex-row items-center self-stretch mt-21">
           <image
             class="shrink-0 image_7"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a4eb78502aacdc39c41f3ff9088cd4a1.png"
+            src="/static/user/history/a4eb78502aacdc39c41f3ff9088cd4a1.png"
           />
           <text class="font_3 text_4">河北省体育局摔跤拳击跆拳道运动管理...</text>
           <text class="font text_5">10:12</text>
@@ -16,7 +16,7 @@
       <view class="flex-row items-center group_4">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a4eb78502aacdc39c41f3ff9088cd4a1.png"
+          src="/static/user/history/a4eb78502aacdc39c41f3ff9088cd4a1.png"
         />
         <text class="font_3 text_6">河北省体育局摔跤拳击跆拳道运动管理...</text>
         <text class="font text_7">10:18</text>
@@ -24,7 +24,7 @@
       <view class="flex-row items-center group_5">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a4eb78502aacdc39c41f3ff9088cd4a1.png"
+          src="/static/user/history/a4eb78502aacdc39c41f3ff9088cd4a1.png"
         />
         <text class="font_3 text_8">河北省体育局摔跤拳击跆拳道运动管理...</text>
         <text class="font text_9">11:22</text>
@@ -32,7 +32,7 @@
       <view class="flex-row items-center group_6">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=d838f738aeb8359acf8152cb7edd4013.png"
+          src="/static/user/history/d838f738aeb8359acf8152cb7edd4013.png"
         />
         <text class="font_3 text_10">标准土木工程机械设备采购招标文件出...</text>
         <text class="font text_11">14:08</text>
@@ -40,7 +40,7 @@
       <view class="flex-row items-center group_7">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=d838f738aeb8359acf8152cb7edd4013.png"
+          src="/static/user/history/d838f738aeb8359acf8152cb7edd4013.png"
         />
         <text class="font_3 text_12">标准土木工程机械设备采购招标文件出...</text>
         <text class="font text_13">16:55</text>
@@ -50,7 +50,7 @@
         <view class="mt-22 flex-row items-center self-stretch">
           <image
             class="shrink-0 image_7"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a4eb78502aacdc39c41f3ff9088cd4a1.png"
+            src="/static/user/history/a4eb78502aacdc39c41f3ff9088cd4a1.png"
           />
           <text class="font_3 text_15">河北省体育局摔跤拳击跆拳道运动管理...</text>
           <text class="font text_16">10:12</text>
@@ -59,7 +59,7 @@
       <view class="flex-row items-center group_9">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=d838f738aeb8359acf8152cb7edd4013.png"
+          src="/static/user/history/d838f738aeb8359acf8152cb7edd4013.png"
         />
         <text class="font_3 text_17">标准土木工程机械设备采购招标文件出...</text>
         <text class="font text_18">14:08</text>
@@ -67,7 +67,7 @@
       <view class="flex-row items-center group_10">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a4eb78502aacdc39c41f3ff9088cd4a1.png"
+          src="/static/user/history/a4eb78502aacdc39c41f3ff9088cd4a1.png"
         />
         <text class="font_3 text_19">河北省体育局摔跤拳击跆拳道运动管理...</text>
         <text class="font text_20">11:22</text>
@@ -75,7 +75,7 @@
       <view class="flex-row items-center group_11">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=d838f738aeb8359acf8152cb7edd4013.png"
+          src="/static/user/history/d838f738aeb8359acf8152cb7edd4013.png"
         />
         <text class="font_3 text_21">标准土木工程机械设备采购招标文件出...</text>
         <text class="font text_22">16:55</text>
@@ -83,7 +83,7 @@
       <view class="flex-row items-center group_12">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a4eb78502aacdc39c41f3ff9088cd4a1.png"
+          src="/static/user/history/a4eb78502aacdc39c41f3ff9088cd4a1.png"
         />
         <text class="font_3 text_23">河北省体育局摔跤拳击跆拳道运动管理...</text>
         <text class="font text_24">10:18</text>
@@ -91,7 +91,7 @@
       <view class="flex-row items-center group_13">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a4eb78502aacdc39c41f3ff9088cd4a1.png"
+          src="/static/user/history/a4eb78502aacdc39c41f3ff9088cd4a1.png"
         />
         <text class="font_3 text_25">河北省体育局摔跤拳击跆拳道运动管理...</text>
         <text class="font text_26">10:18</text>
@@ -99,7 +99,7 @@
       <view class="flex-row items-center group_14">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=a4eb78502aacdc39c41f3ff9088cd4a1.png"
+          src="/static/user/history/a4eb78502aacdc39c41f3ff9088cd4a1.png"
         />
         <text class="font_3 text_27">河北省体育局摔跤拳击跆拳道运动管理...</text>
         <text class="font text_28">10:18</text>
@@ -108,23 +108,15 @@
     <view class="flex-col justify-start items-center image-wrapper_2">
       <image
         class="image_8"
-        src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=874a01681b2039fa487612b57831695b.png"
+        src="/static/user/history/874a01681b2039fa487612b57831695b.png"
       />
     </view>
   </view>
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {};
-  },
+<script setup>
 
-  methods: {},
-};
 </script>
 
 <style scoped lang="scss">

@@ -14,12 +14,12 @@
         <view class="flex-row items-center group_4">
           <image
             class="shrink-0 image_7"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=52ab038a28c3236874db311c746bc8e1.png"
+            src="@/static/index/position.png"
           />
           <text class="font_4 text_5">河南省·郑州市</text>
           <image
             class="shrink-0 image_7 image_8"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=d9a77ebad1ae28d4eee5187e9d134e91.png"
+            src="@/static/index/clock.png"
           />
           <text class="font_5 text_6">2021-11-11</text>
         </view>

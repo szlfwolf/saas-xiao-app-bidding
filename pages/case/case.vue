@@ -7,7 +7,7 @@
         <text class="text_4">看案例 学经验</text>
         <image
           class="image_7 pos_4"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=46380864c5fe231039e159718c5e7d01.png"
+          src="/static/case/46380864c5fe231039e159718c5e7d01.png"
         />
       </view>
       <view class="flex-row pos_5">
@@ -41,7 +41,7 @@
             <view class="flex-row items-center group_5">
               <image
                 class="shrink-0 image_8"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4297be9602057c3456c0cfe6ad178c61.png"
+                src="@/static/index/clock.png"
               />
               <text class="ml-6 font_6">2021-11-11</text>
             </view>
@@ -51,22 +51,13 @@
       </view>
       <view class="self-start divider"></view>
     </view>
+    <view class="self-start divider"></view>
   </view>
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {
-      items: [null, null, null],
-    };
-  },
-
-  methods: {},
-};
+<script setup>
+const items= [null, null, null,null,null];
 </script>
 
 <style scoped lang="scss">

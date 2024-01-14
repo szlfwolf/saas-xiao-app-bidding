@@ -70,5 +70,14 @@
     },
     "vueVersion" : "3",
     "fallbackLocale" : "zh-Hans",
-    "locale" : "auto"
+    "locale" : "auto",
+    "h5" : {
+        "title" : "您身边的标书服务专家",
+        "devServer" : {
+            "https" : false
+        },
+        "router" : {
+            "mode" : "history"
+        }
+    }
 }

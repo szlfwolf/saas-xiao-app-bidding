@@ -39,10 +39,6 @@
         <text class="font_2 text_13">
           4）本次项目投标供应商所提供书源要求来自正规渠道，所供图书要求内容健康、学术研究性强，必须是正规的、大型的、权威的出版社的出版物。
         </text>
-        <image
-          class="image_7 pos_3"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=382ab77955fd9ba5b6c9b413442235d5.png"
-        />
       </view>
     </view>
   </view>

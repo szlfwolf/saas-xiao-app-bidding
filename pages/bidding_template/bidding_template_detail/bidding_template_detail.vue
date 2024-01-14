@@ -36,7 +36,7 @@
       <view class="flex-row items-center button_3 section_6">
         <image
           class="shrink-0 image_7"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=ba48a1e7ecaaa910404254d74ede66c2.png"
+          src="/static/user/download/download.png"
         />
         <text class="text_9 ml-5">下载文档</text>
       </view>
@@ -45,16 +45,8 @@
 </view>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {};
-  },
+<script setup>
 
-  methods: {},
-};
 </script>
 
 <style scoped lang="scss">

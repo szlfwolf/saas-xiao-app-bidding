@@ -28,14 +28,14 @@
           <view class="flex-row items-center flex-1">
             <image
               class="shrink-0 image_7"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=7ddcc7b95b82432d6aaf12286317656e.png"
+              src="@/static/user/taskdetail/7ddcc7b95b82432d6aaf12286317656e.png"
             />
             <text class="font_2 text_10">标准土木工程机械设备采购招.docx</text>
             <text class="font_3 text_11">856KB</text>
           </view>
           <image
             class="ml-20 shrink-0 image_7"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=b10a2836e1f0cc63b5d37a6d17a6b24d.png"
+            src="@/static/user/taskdetail/b10a2836e1f0cc63b5d37a6d17a6b24d.png"
           />
         </view>
       </view>
@@ -47,24 +47,24 @@
           <view class="flex-row justify-between equal-division">
             <image
               class="equal-division-item"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=24371da5f8c0df549bc6b6a311c6cc99.png"
+              src="@/static/user/taskdetail/24371da5f8c0df549bc6b6a311c6cc99.png"
             />
             <image
               class="equal-division-item"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=844058768ec087faab781a2d967c945a.png"
+              src="@/static/user/taskdetail/844058768ec087faab781a2d967c945a.png"
             />
             <image
               class="equal-division-item"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=226f96bb308a6db6d9920f34c3fef4e2.png"
+              src="@/static/user/taskdetail/226f96bb308a6db6d9920f34c3fef4e2.png"
             />
             <image
               class="equal-division-item"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=22d5e42df406d4355639370170a61a4c.png"
+              src="@/static/user/taskdetail/22d5e42df406d4355639370170a61a4c.png"
             />
           </view>
           <image
             class="mt-10 self-start equal-division-item"
-            src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=24371da5f8c0df549bc6b6a311c6cc99.png"
+            src="@/static/user/taskdetail/24371da5f8c0df549bc6b6a311c6cc99.png"
           />
         </view>
       </view>
@@ -74,7 +74,7 @@
           <view class="flex-row items-center">
             <image
               class="image_8"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4779f7745fb5ee5f0b1158a8a52d5f11.png"
+              src="@/static/user/taskdetail/4779f7745fb5ee5f0b1158a8a52d5f11.png"
             />
             <text class="font_6 text_17 ml-13">新建任务</text>
           </view>
@@ -83,15 +83,15 @@
               <view class="section_5"></view>
               <image
                 class="image_8 pos_3"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4779f7745fb5ee5f0b1158a8a52d5f11.png"
+                src="@/static/user/taskdetail/4779f7745fb5ee5f0b1158a8a52d5f11.png"
               />
               <image
                 class="image_8 pos_4"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4779f7745fb5ee5f0b1158a8a52d5f11.png"
+                src="@/static/user/taskdetail/4779f7745fb5ee5f0b1158a8a52d5f11.png"
               />
               <image
                 class="image_8 pos_5"
-                src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=4779f7745fb5ee5f0b1158a8a52d5f11.png"
+                src="@/static/user/taskdetail/4779f7745fb5ee5f0b1158a8a52d5f11.png"
               />
             </view>
             <view class="flex-col items-start ml-13">
@@ -111,7 +111,7 @@
           <view class="flex-row items-center">
             <image
               class="image_8"
-              src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=263b50178faf2852f604f78f5b76a8f3.png"
+              src="@/static/user/taskdetail/263b50178faf2852f604f78f5b76a8f3.png"
             />
             <text class="font_2 text_29 ml-13">任务完成</text>
           </view>
@@ -122,7 +122,7 @@
       <view class="flex-row justify-end items-center group_12">
         <image
           class="image_9"
-          src="https://ide.code.fun/api/image?token=659129ee1bf67f00113d0f95&name=abc3fbe37d830c85c79e9af27ae8186b.png"
+          src="@/static/user/taskdetail/abc3fbe37d830c85c79e9af27ae8186b.png"
         />
         <text class="font_2 text_32 ml-11">删除任务</text>
       </view>
