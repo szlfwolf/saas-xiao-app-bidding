@@ -536,39 +536,3 @@ text {
 	height: calc(80rpx + env(safe-area-inset-bottom));
 }
 
-uni-tabbar {
-	.uni-tabbar {
-		/* // tab 背景 */
-		background-color: rgba(255, 255, 255, 0.1) !important; /* // tab 背景色 */
-		background-image: linear-gradient(to top, #ffffff, #ffffff) !important; /* // tab 背景图片，也可以是渐变色，背景色和背景图片最多选择一个进行设置 */
-
-		.uni-tabbar-border {
-			/* // tabBar 上边框 */
-			background-color: #e54d42 !important; /* // tabBar 上边框的颜色 */
-		}
-
-		.uni-tabbar__bd {
-			/* // tabBar 单项 */
-			height: 80px !important;
-
-			.uni-tabbar__icon {
-				/* // tabBar 图标 */
-				width: 40px !important;
-				height: 40px !important;
-			}
-
-			.uni-tabbar__label {
-				/* // tabBar 文字 */
-				font-size: 0.625rem !important;
-				line-height: 0.58rem;
-				font-family: PingFang SC;
-				white-space: pre-line;
-				color: #666666;
-			}
-		}
-	}
-
-	.uni-tabbar~.uni-placeholder {
-		height: 80rpx;
-	}
-}

@@ -87,7 +87,7 @@
         <view class="flex-col justify-start items-center self-stretch text-wrapper_4">
           <text class="font_3 text_23">点击上传文件</text>
         </view>
-        <text class="self-start text_24">提示: 支持&lt;20MB的文件</text>
+        <text class="self-start text_24">提示: 支持小于20MB的文件</text>
       </view>
       <view class="flex-col section_10">
         <text class="self-start font text_25">备注</text>

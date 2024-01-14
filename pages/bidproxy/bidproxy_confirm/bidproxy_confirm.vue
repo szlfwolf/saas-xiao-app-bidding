@@ -11,7 +11,7 @@
           <text class="font_2 text_4">点击上传文件</text>
         </view>
         <view class="self-start group_4 view">
-          <text class="font_3 text_5 text_6">提示：支持&lt;20MB以下的</text>
+          <text class="font_3 text_5 text_6">提示：支持小于20MB以下的</text>
           <text class="font_3 text_5 text_7">word、excle、PDF</text>
           <text class="font_3 text_5">文件格式</text>
         </view>

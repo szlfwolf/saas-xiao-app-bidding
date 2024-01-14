@@ -282,7 +282,7 @@
 					.image-wrapper_2 {
 						opacity: 0.1;
 						border-radius: 36rpx;
-						background-image: url('/static/index/banner_1_1.png');
+						
 						background-size: 100% 100%;
 						background-repeat: no-repeat;
 
