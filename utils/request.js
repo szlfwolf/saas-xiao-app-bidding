@@ -1,99 +1,53 @@
-import {
-	HTTP_REQUEST_URL,
-	HEADER,
-	TOKENNAME,
-	HEADERPARAMS
-} from '@/config/app';
-import {
-	toLogin,
-	checkLogin
-} from '@/libs/login';
-import store from '@/store';
-import {
-	getTerminal
-} from "./util";
-
-// TODO 芋艿：临时解决 uniapp 在小程序，undefined 会被 tostring 的问题
-function deleteUndefinedProperties(obj) {
-	for (let key in obj) {
-		if (obj.hasOwnProperty(key)) {
-			if (typeof obj[key] === 'object' && obj[key] !== null) {
-				deleteUndefinedProperties(obj[key]); // 递归调用，处理嵌套的对象
-			} else if (obj[key] === undefined) {
-				delete obj[key];
-			}
-		}
-	}
+const baseEnvUrl = {
+	"DEV": "https://api.lfwolf.cn/",
+	"LOCAL": ""
 }
 
-/**
- * 发送请求
- */
-function baseRequest(url, method, data, {
-	noAuth = false,
-	noVerify = false
-}, params) {
-	let Url = HTTP_REQUEST_URL,
-		header = HEADER
-	if (params != undefined) {
-		header = HEADERPARAMS;
-	}
-	if (!noAuth) {
-		//登录过期自动登录
-		if (!store.state.app.token && !checkLogin()) {
-			// debugger
-			toLogin();
-			return Promise.reject({
-				msg: '未登录'
-			});
-		}
-	}
+let BASEURL = baseEnvUrl['DEV']
 
-	deleteUndefinedProperties(data)
+const baseRequest = (url, method, data, params) => {
+	return new Promise((resolve, reject) => {
+		handleRequest(url, method, data, resolve, reject)
+	})
+}
 
-	// TODO 补个 header 多租户
+// 发起请求
+function handleRequest(url, method, data, resolve, reject) {
+	const header = {
+		'content-type': 'application/json'
+	};
+	// todo: 设置租户
 	if (url.indexOf('app-api') >= 0) {
-		header = {
-			...header
-		}
 		header['tenant-id'] = 1
 	}
-
-	// 终端
-	header['terminal'] = getTerminal()
-
-	if (store.state.app.token) {
-		// header[TOKENNAME] = store.state.app.token;
-		header['Authorization'] = 'Bearer ' + store.state.app.token;
+	const token = uni.getStorageSync("token")
+	if (token) {
+		header['Authorization'] = 'Bearer ' + token;
 	}
-	return new Promise((reslove, reject) => {
-		uni.request({
-			// url: url.indexOf('app-api') < 0 ? Url + '/api/front/' + url
-			url: url.indexOf('app-api') < 0 ? Url + '/api/front/' + url
-				// : 'http://yunai.natapp1.cc/' + url, // TODO 芋艿：搞个 url 的配置
-				:
-				'https://api.lfwolf.cn/' + url, // TODO 芋艿：搞个 url 的配置
-			// : 'http://api-dashboard.yudao.iocoder.cn/' + url, // TODO 芋艿：搞个 url 的配置
-			method: method || 'GET',
-			header: header,
-			data: data || {},
-			success: (res) => {
-				if (noVerify)
-					reslove(res.data, res);
-				else if (res.data.code === 200 || res.data.code === 0)
-					reslove(res.data, res);
-				else if ([410000, 410001, 410002, 401].indexOf(res.data.code) !== -1) {
-					toLogin();
-					reject(res.data);
-				} else
-					reject(res.data.msg || res.data.message || '系统错误');
-			},
-			fail: (msg) => {
-				reject('请求失败');
-			}
-		})
-	});
+	console.log(url)
+	uni.request({
+		url: BASEURL + url,
+		method: method,
+		header: header,
+		data: data || {},
+		success: (res) => {
+			console.log(res)
+			if (res.data.code === 200 || res.data.code === 0)
+				return resolve(res.data, res);
+			else if ([410000, 410001, 410002, 401].indexOf(res.data.code) !== -1) {
+				// toLogin();
+				return reject(res.data);
+			} else
+				return reject(res.data.msg || res.data.message || '系统错误');
+		},
+		fail: (fail) => {
+			console.log('fail', fail)
+			return reject(fail);
+		}
+
+	})
 }
+
 
 const request = {};
 

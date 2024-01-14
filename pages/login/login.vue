@@ -8,21 +8,20 @@
 				<text class="text mt-13">览众·众标</text>
 			</view>
 
-
-			<view class="flex-col justify-start items-center button text-wrapper">
-				<!-- #ifdef H5 -->
+			<!-- #ifdef H5 -->
+			<view class="flex-col justify-start items-center button text-wrapper" @click="login">
 				<text class="font text_2 text-wrapper">微信登录</text>
-				<!-- #endif -->
-				<!-- #ifdef MP-WEIXIN -->
+			</view>
+			<!-- #endif -->
+
+			<!-- #ifdef MP-WEIXIN -->
+			<view class="flex-col justify-start items-center button text-wrapper">
 				<button open-type="getPhoneNumber" @getphonenumber="getPhoneNumber"
 					class="font text_2 text-wrapper">一键登录</button>
-				<!-- #endif -->
 			</view>
+			<!-- #endif -->
 
-
-
-
-			<text class="self-center font text_3 text_4" @click="goIndex()">直接试用</text>
+			<text class="self-center font text_3 text_4" @click="mockLogin()">直接试用</text>
 			<view class="flex-row items-center checkbox group_2">
 				<image class="shrink-0 image_6" src="/static/login/17040121941599837139.png" />
 				<text class="font_2 text_3 text_5">登录代表同意</text>
@@ -33,12 +32,29 @@
 </template>
 
 <script setup>
+	import * as AuthApi from "@/api/member/auth.js"
+	import * as UserApi from "@/api/member/user.js"
 
 	const goIndex = () => {
 		uni.switchTab({
 			url: '/pages/index/index'
 		});
 	}
+	const mockLogin = () => {
+		console.log("mockLogin")
+		uni.setStorageSync("user", {
+			"nickname": "demo",
+			"mobile": "135****1234",
+			"avatar": "/static/user/3f22133883cbe76cf616a7b10eeba089.png"
+		});
+		goIndex()
+	}
+	// #ifdef H5
+	const login = () => {
+		mockLogin()
+	}
+	// #endif
+
 	// #ifdef MP-WEIXIN
 	/**
 	 * 微信一键登录
@@ -56,21 +72,58 @@
 			return;
 		}
 		// 情况二：允许授权手机号码
-		const loginCode = await Routine.getCode()
+		const loginCode = await getCode()
 		AuthApi.weixinMiniAppLogin(phoneCode, loginCode).then(res => {
 			const data = res.data;
-			// TODO 芋艿：refreshToken 机制
-			this.$store.commit("LOGIN", {
-				'token': data.accessToken
-			});
-			this.getUserInfo();
+			uni.setStorageSync("token", data.accessToken);
+			getUserInfo();
 		}).catch(e => {
-			this.$util.Tips({
-				title: e
+			console.log(e)
+		});
+	}
+	async function getCode() {
+		let provider = await getProvider();
+		return new Promise((resolve, reject) => {
+			uni.login({
+				provider: provider,
+				success(res) {
+					console.log("getCode")
+					console.log(res)
+					return resolve(res.code);
+				},
+				fail() {
+					return reject(null);
+				}
+			})
+		})
+	}
+	/**
+	 * 获取服务供应商
+	 */
+	async function getProvider() {
+		return new Promise((resolve, reject) => {
+			uni.getProvider({
+				service: 'oauth',
+				success(res) {
+					console.log("getProvider")
+					console.log(res)
+					resolve(res.provider);
+				},
+				fail() {
+					resolve(false);
+				}
 			});
 		});
 	}
 	// #endif
+
+	function getUserInfo() {
+		UserApi.getUserInfo().then(res => {
+			uni.hideLoading();
+			uni.setStorageSync("user", res.data);
+			goIndex();
+		});
+	}
 </script>
 
 <style scoped lang="scss">
