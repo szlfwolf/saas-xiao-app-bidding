@@ -59,10 +59,10 @@
 	/**
 	 * 微信一键登录
 	 */
-	async function getPhoneNumber(e) {
+	async function getPhoneNumber(e) {		
 		// 情况一：拒绝授权手机号码
 		const phoneCode = e.detail.code
-		if (!e.detail.code) {
+		if (!e.detail.code) {			
 			uni.showModal({
 				title: '授权失败',
 				content: '您已拒绝获取绑定手机号登录授权，可以使用其他手机号验证登录',
@@ -71,6 +71,7 @@
 			})
 			return;
 		}
+		uni.showLoading();
 		// 情况二：允许授权手机号码
 		const loginCode = await getCode()
 		AuthApi.weixinMiniAppLogin(phoneCode, loginCode).then(res => {
@@ -80,6 +81,7 @@
 		}).catch(e => {
 			console.log(e)
 		});
+		uni.hideLoading();
 	}
 	async function getCode() {
 		let provider = await getProvider();

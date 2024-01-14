@@ -16,3 +16,4 @@ yarn.lock
 
 /.vite
 
+project.private.config.json
